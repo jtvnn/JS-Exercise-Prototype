@@ -97,10 +97,10 @@ function Person(name, age) {
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. Window: if none of the other rules apply 'this' defaults to the global window
+    2. Implicit: used with object methods - look to the left of the dot (that's what 'this' is referring to)
+    3. Explicit: This binding explicitly bind 'this' by using apply, bind, call
+    4. New: When a function is invoked as a constructor function this points to the newly created object 
   */
   
   
