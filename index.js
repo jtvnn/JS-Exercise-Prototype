@@ -42,9 +42,9 @@ function Airplane(name) {
 //  function Person() {
     
 //   }
-function Person(attributes) {
-  this.name = attributes.name;
-  this.age = attributes.age;
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
   this.stomach = [];
  }
 
@@ -59,7 +59,7 @@ function Person(attributes) {
  }
 
  Person.prototype.toString = function(){
-   return `${this.name} ${this.age}`;
+   return `${this.name}, ${this.age}`;
  }
 
   
