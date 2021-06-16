@@ -96,7 +96,14 @@ this.tank = this.tank + gallons;
 //  function Baby() {
    
 //   }
- 
+function Baby(attributes) {
+  Person.call(this, attributes);
+}
+
+Baby.prototype = Object.create(Person.prototype);
+
+
+
   
   /* 
     TASK 4
